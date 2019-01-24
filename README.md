@@ -17,7 +17,7 @@
   
   
 	dependencies {
-	        implementation 'com.github.guojiel:LazyFragment:Tag'
+	        implementation 'com.github.guojiel:LazyFragment:1.0.0'
 	}
   
   //注意,你的项目中需要保证有Fragment的依赖
@@ -62,6 +62,4 @@
   当前A是Resume状态，启动一个Activity，执行生命周期方法：A{@link #lzPause()} B不变，再回来时，执行生命周期方法：A{@link #lzResume()} B不变
   
   
-  -----
-  
-  
+----------END----------
